@@ -4,7 +4,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from db import get_db_connection
 
-def insert_student():
+def update_student():
     try:
         conn = get_db_connection()
         if conn is not None:
@@ -22,4 +22,4 @@ def insert_student():
         conn.close()
 
 if __name__ == '__main__':
-    insert_student()
+    update_student()
