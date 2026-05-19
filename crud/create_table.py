@@ -45,8 +45,3 @@ def create_teacher_table():
     finally:
         cursor.close()
         conn.close()
-
-
-if __name__ == '__main__':
-    #create_user_table()
-    create_teacher_table()
